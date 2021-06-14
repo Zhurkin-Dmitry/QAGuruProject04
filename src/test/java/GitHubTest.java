@@ -14,6 +14,8 @@ public class GitHubTest {
         $(byText("Show 1 more pages…")).click();
         $$("#wiki-pages-box li a").find(text("SoftAssertions")).click();
         $$("#wiki-body ol li").shouldHave(itemWithText("Using JUnit5 extend test class:"));
+
+        // and now just a commit for pull request purposes
     }
 
 }
